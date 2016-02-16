@@ -1,4 +1,4 @@
-# abyor-3-web
+# Website Kelompok Abyor 3
 
 * Kelompok Abyor Web 3
 * Nama Projek: Web Sistem Administrasi Sekolah
