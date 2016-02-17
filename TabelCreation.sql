@@ -38,7 +38,8 @@ CREATE TABLE [dbo].[Nilai](
 	[id] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL,
 	[kodeMapel] [char](4) NOT NULL,
 	[nis] [char](8) NOT NULL,
-	[nip] [char](10) NOT NULL
+	[nip] [char](10) NOT NULL,
+	[nilai] [int] NOT NULL
 )
 
 GO
