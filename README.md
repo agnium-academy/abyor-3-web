@@ -1,35 +1,43 @@
 # abyor-3-web
 
 * Kelompok Abyor Web 3
-* Nama Projek: Web Sistem Informasi Sekolah
+* Nama Projek: Web Sistem Informasi akademik Sekolah
 * Tim: Iqbal, Dhany, Kiki, Trio
 
 # Tujuan
 
 1. Memberikan informasi daftar siswa, daftar guru, daftar mata pelajaran, dan  daftar nilai.
-2. Menyederhanakan dan mempermudah administrasi sekolah
-3. Mempercepat pelayanan dan pengolahan administrasi sekolah
+2. Menyederhanakan dan mempermudah administrasi akademik sekolah
+3. Mempercepat pelayanan dan pengolahan administrasi akademik sekolah
 
 # User
 
-1. Administrator
+Pada umumnya user dari sistem informasi akademik sekolah ini adalah Guru TU,
+untuk lebih spesifik user yang dimaksud adalah Operator Komputer, dimana pada umumnya tugas dari Operator Komputer Tata Usaha sekolah diantaranya adalah :
+* Operator komputer
+* Bertanggungjawab  file dan data komputer
+* Membantu pengolahan/penyusunan data sekolah
+* Membantu pengelolaan/penyusunan data siswa
+* Membantu dan melaksanakan tugas lain yang relevan yang diberikan atasan langsung
 
-# User Experience
+# Rancangan Web Sistem Informasi Akademik Sekolah 
 
-Administrator akan menjalankan proses melihat data, memasukkan data, merubah data, dan menghapus data.
+* Halaman Login
+  Pada halaman ini user akan melakukan login untuk masuk menuju halaman utama
 
-# Halaman Login
+* Halaman Utama
+  Pada halaman ini menampilkan informasi atau berita berupa teks yang berisi informasi sekolah secara umum, prestasi yang dicapai dan juga visi misi sekolah.
+  Konten yang terdapat pada halaman ini antara lain:
 
-- Administrator melakukan login
+	1. Home (Halaman ini berisi Profil, Visi, Misi, dan Prestasi Sekolah)
+	2. Daftar User (Menampilkan Daftar User dan memuat fungsi CRUD untuk user)
+	3. Daftar Siswa (Menampilkan Daftar Siswa dan memuat fungsi CRUD untuk Siswa)
+	4. Daftar Guru (Menampilkan Daftar Guru dan memuat fungsi CRUD untuk Guru)
+	5. Daftar Mata Pelajaran (Menampilkan Daftar Mata Pelajaran dan memuat fungsi CRUD untuk Mata Pelajaran)
+	6. Daftar Nilai (Menampilkan Daftar Nilai dan memuat fungsi CRUD untuk Nilai)
+	7. Logout
 
-# Halaman Utama
-
-Content:
-
-1. Home (Halaman ini berisi Profil, Visi, Misi, dan Prestasi Sekolah)
-2. Daftar User (Menampilkan Daftar User dan memuat fungsi CRUD untuk user)
-3. Daftar Siswa (Menampilkan Daftar Siswa dan memuat fungsi CRUD untuk Siswa)
-4. Daftar Guru (Menampilkan Daftar Guru dan memuat fungsi CRUD untuk Guru)
-5. Daftar Mata Pelajaran (Menampilkan Daftar Mata Pelajaran dan memuat fungsi CRUD untuk Mata Pelajaran)
-6. Daftar Nilai (Menampilkan Daftar Nilai dan memuat fungsi CRUD untuk Nilai)
-7. Logout
+* Halaman CRUD
+  Selain melihat informasi akademik sekolah, user dapat melakukan aktifitas menambah, merubah dan menghapus data pada setiap konten yang disediakan.
+  Konten-konten yang dimaksud adalah daftar user, daftar siswa, daftar guru, daftar Mata Pelajaran, dan daftar nilai.
+  Maka dari itu disediakan halaman tersendiri untuk membantu user melakukan aktifitas menambah, merubah dan menghapus data pada konten-konten tersebut.
