@@ -44,9 +44,11 @@ CREATE TABLE [dbo].[Nilai](
 GO
 ALTER TABLE [dbo].[Nilai]  ADD  CONSTRAINT [FK_Nilai_Mapel] FOREIGN KEY([kodeMapel])
 REFERENCES [dbo].[Mapel] ([kodeMapel])
+
 GO
 ALTER TABLE [dbo].[Nilai]  ADD  CONSTRAINT [FK_Nilai_Siswa] FOREIGN KEY([nis])
 REFERENCES [dbo].[Siswa] ([nis])
+
 GO
 ALTER TABLE [dbo].[Nilai]  ADD  CONSTRAINT [FK_Nilai_Guru] FOREIGN KEY([nip])
 REFERENCES [dbo].[Guru] ([nip])
