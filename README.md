@@ -1,7 +1,7 @@
 # abyor-3-web
 Kelompok Abyor Web 3
 Nama Projek : Web Sistem Informasi Sekolah
-Editor : Iqbal, Dhany, Kiki, Trio
+Tim : Iqbal, Dhany, Kiki, Trio
 
 # Tujuan
 1. Memberikan informasi daftar siswa, daftar guru, daftar mata pelajaran, dan  daftar nilai.
