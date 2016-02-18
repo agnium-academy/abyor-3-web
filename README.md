@@ -43,3 +43,9 @@ untuk lebih spesifik user yang dimaksud adalah Operator Komputer, dimana pada um
   Selain melihat informasi akademik sekolah, user dapat melakukan aktifitas menambah, merubah dan menghapus data pada setiap konten yang disediakan.
   Konten-konten yang dimaksud adalah daftar user, daftar siswa, daftar guru, daftar Mata Pelajaran, dan daftar nilai.
   Maka dari itu disediakan halaman tersendiri untuk membantu user melakukan aktifitas menambah, merubah dan menghapus data pada konten-konten tersebut.
+
+# Cara Menjalankan Aplikasi
+1. Pertama copy folder abyor3 ke dalam folder xampp => htdocs
+2. Kemudian import database abyordb.sql ke xampp
+3. Dan yang terkhir jalankan Aplikasi dibrowser dengan perintah https://localhost/abyor3
+4. Sekian selamat mencoba...
