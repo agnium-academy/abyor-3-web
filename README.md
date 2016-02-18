@@ -1,7 +1,9 @@
 # abyor-3-web
 
 * Kelompok Abyor Web 3
-* Nama Projek: Web Sistem Informasi akademik Sekolah
+* Nama Projek: Web Sistem Informasi akademik Sekolah 
+* Versi : Beta
+* Tanggal Pembuatan : 18 Februari 2016
 * Tim: Iqbal, Dhany, Kiki, Trio
 
 # Tujuan
