@@ -1,0 +1,134 @@
+
+html,body{height:100%;}
+.ewHeaderRow{background-color:#a9a9a9;color:inherit;}
+.ewContentTable{width:100%;border-spacing:0;}
+.ewMenuColumn{background-color:#f5f5f5;color:inherit;width:180px;vertical-align:top;padding:0;}
+.ewContentColumn{background-color:inherit;padding:20px;vertical-align:top;}
+.ewFooterRow{background-color:#a9a9a9;color:#ffffff;}
+.ewFooterText{padding:4px;}
+#RootMenu{width:100%;border:0;border-radius:0;box-shadow:none;background-color:transparent;display:block;position:relative;}
+#RootMenu .dropdown-menu{background-color:#f5f5f5;}
+#RootMenu .dropdown-submenu.disabled:hover>a:after{border-left-color:#cccccc;}
+#RootMenu li:not(.divider){margin:0;}
+#RootMenu li a{text-decoration:none;}
+.dropdown-header{display:block;padding:3px 20px;font-size:11.9px;line-height:20px;color:#999999;}
+.ewForm{margin:0;padding:0;}
+.ewFormTable{border:0;border-spacing:0;}
+.ewFormTable td{padding:4px;}
+.ewGrid{border-collapse:separate;border-spacing:0;margin-bottom:20px;}
+.ewGrid .table{margin-bottom:0;}
+.ewGrid>tbody>tr>td>.table>tbody>tr>td:first-of-type,.ewMultiColumnTable>tbody>tr>td>.table>tbody>tr>td:first-of-type{text-align:right;}
+.ewGrid .ewGridContent{padding:0;border:1px solid #4f93e3;}
+.ewGridUpperPanel,.ewGridLowerPanel{padding:3px;border-left:0;border-right:0;background-color:inherit;color:inherit;}
+.ewGridUpperPanel{border-top:0px;border-bottom:1px solid;border-color:#4f93e3;}
+.ewGridMiddlePanel{border:0;}
+.ewGridLowerPanel{border-top:1px solid;border-bottom:0px;border-color:#bfd3ee;}
+.ewGridUpperPanel td,.ewGridLowerPanel td{color:inherit;}
+.ewNoBorderBottom{border-bottom:0px;}
+.ewNoBorderTop{border-top:0px;}
+.ewStdTable{border:0;border-spacing:0;}
+.ewStdTable>tbody>tr>td{padding:0;}
+.ewDisplayTable{display:table;}
+.ewPager{border:0;border-spacing:0;margin-bottom:20px;}
+.ewPager td{white-space:nowrap;padding:0;}
+.ewPager .pagination{margin:0;}
+.ewPager [class^="icon-"]{margin:0;vertical-align:text-bottom;}
+.ewGridUpperPanel .ewPager,.ewGridLowerPanel .ewPager{margin-bottom:2px;}
+.icon-prev{background-position:-264px -73px;-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);-ms-transform:rotate(180deg);-o-transform:rotate(180deg);transform:rotate(180deg);}
+.ewPager .btn-small{min-height:16px;font-size:14px;}
+input[name=pageno]{padding:2px 4px;min-height:16px;height:20px;}
+button.ewButton{min-width:75px;}
+a.ewButton{min-width:49px;}
+.ewTabContent{padding:0;border:0;}
+.ewMultiColumnTable{border:0;border-spacing:0;}
+.ewMultiColumnTable td{padding:10px;}
+.ewItemList{display:inline-table;}
+.ewTable{border:0;border-spacing:0;border-collapse:collapse;empty-cells:show;width:100%;}
+.ewTableSeparate{border-collapse:separate;}
+.ewTable>tbody>tr>td,.ewTable>tfoot>tr>td{padding:3px;border-bottom:1px solid;border-top:0px;border-left:0px;border-right:1px solid;border-color:#bfd3ee;}
+.ewTableAddOpt{border:0;border-spacing:0;}
+.ewTableAddOpt td{padding:3px;border:0;}
+.ewTable .ewTableHeader,.ewTable .ewTableHeader td{background-color:#2647a0;color:#ffffff;border-bottom:1px solid;border-right:1px solid;border-color:#4f93e3;background-image:-moz-linear-gradient(top, #416fd9, #2647a0);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#416fd9), to(#2647a0));background-image:-webkit-linear-gradient(top, #416fd9, #2647a0);background-image:-o-linear-gradient(top, #416fd9, #2647a0);background-image:linear-gradient(to bottom, #416fd9, #2647a0);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#416fd9', endColorstr='#2647a0', GradientType=0);background-repeat:repeat-x;vertical-align:top;padding:3px;}
+.ewTableHeaderBtn{position:relative;padding-right:12px;white-space:nowrap;}
+.ewPointer{cursor:pointer;}
+.ewTableHeaderBtn .ewTableHeaderSort{position:absolute;width:10px;top:50%;margin-top:-9px;right:0;float:right;}
+.ewTableHeaderBtn .caret{margin-top:8px;margin-left:0;border-top:4px solid;}
+.ewTableHeaderBtn .ewSortUp{border-top:0;content:"";border-bottom:4px solid;}
+.ewTable .ewTableHeaderBtn .caret{border-top-color:#ffffff;}
+.ewTable .ewTableHeaderBtn .ewSortUp{border-bottom-color:#ffffff;}
+.ewTableRow{background-color:#ffffff;color:inherit;}
+.ewTableAltRow{background-color:#edf5ff;color:inherit;}
+.ewTable td.ewTableLastCol{border-right:0px;}
+.ewTable td.ewTableLastRow{border-bottom:0px;}
+.ewTableEditRow>td{background-color:#ffff99;color:inherit;}
+.ewTableHighlightRow>td{background-color:#ffffcc;color:inherit;}
+.ewTableSelectRow>td{background-color:#8d8d8d;color:#ffffff;}
+.ewTableFooter{background-color:#d4e7fd;color:inherit;}
+.ewAggregate:after{content:": ";}
+.ewCheckbox{text-align:center;}
+.ewExportOption{padding-right:10px;display:inline-block;}
+.ewOtherOption{display:inline-block;}
+.ewAddEditOption{display:inline-block;}
+.ewDetailOption{display:inline-block;}
+.ewActionOption{padding-right:10px;display:inline-block;}
+.ewMultiColumnListOption{padding-top:2px;padding-bottom:2px;}
+.ewMultiColumnListOption .ewListOptionBody{float:left;}
+.ewListOptionHeader label.checkbox,.table th label.checkbox{margin-bottom:0;}
+.ewListOptionSeparator{padding-right:10px;}
+td.ewListOptionBody .ewButtonGroup img{max-width:none;}
+.ewExportTable{border:0;border-spacing:0;border-collapse:collapse;empty-cells:show;}
+.ewExportTable td{padding:3px;border-bottom:1px solid;border-top:1px solid;border-left:1px solid;border-right:1px solid;border-color:#bfd3ee;}
+.ewExportTable .ewTableHeader,.ewExportTableHeader td{background-color:#2647a0;color:#ffffff;border-bottom:1px solid;border-right:1px solid;border-color:#4f93e3;vertical-align:top;}
+.ewExportTableRow>td{background-color:#ffffff;color:inherit;}
+.ewExportTableAltRow>td{background-color:#edf5ff;color:inherit;}
+.ewExportTableFooter{background-color:#d4e7fd;color:inherit;}
+.ewListExportOptions,.ewViewExportOptions,.ewViewOtherOptions{margin-bottom:20px;}
+.ewRow{margin-bottom:20px;white-space:nowrap;}
+.ewRow:last-child{margin-bottom:0;}
+.ewRow .ewCell{padding-right:10px;}
+.ewSearchField+.ewSearchCond{margin-left:10px;}
+.ewSearchOperator,.ewSearchOperator select{color:maroon;}
+.ewItemTable td{border:0;vertical-align:top;padding:2px 20px 2px 2px;}
+.ewItemTable tbody>tr:nth-child(2n+1)>td{background-color:transparent;}
+.ewSeparator{color:gray;}
+.ewLinkSeparator{padding-right:10px;}
+.ewReportTable{border:0px;border-collapse:collapse;}
+.ewReportTable td{padding:3px;}
+.ewGroupIndent{width:5px;}
+.ewGroupField{font-weight:bold;}
+.ewGroupName{font-weight:bold;}
+.ewGroupHeader{vertical-align:top;border-bottom:3px double Gray;border-top:3px double Gray;}
+.ewGroupSummary{border-top:1px solid Gray;}
+.ewGroupAggregate{font-weight:bold;}
+.ewGrandSummary{border-top:1px solid Gray;}
+#ewMsgBox .alert{background-color:transparent;border:0;}
+.ewMessageDialog{min-width:300px;}
+.ewMessageTable{margin:1em 0px 1em 0px;}
+.ewWarningIcon{background:url("../phpimages/warn.gif") no-repeat;vertical-align:top;width:16px;}
+.ewRequired{color:red;}
+.ewHighlightSearch{font-weight:bold;background-color:yellow;}
+.ewTemplate{display:none;}
+.ewLangForm{text-align:right;}
+.ewReadOnlyTextArea{padding-bottom:5px;padding-right:5px;position:relative;}
+.ewReadOnlyTextAreaData{overflow:auto;height:100%;width:100%;}
+.ewResizeHandle{height:5px;width:5px;bottom:0;right:0;cursor:se-resize;position:absolute;}
+.calendar{z-index:10000;}
+.ewUploadTable{margin-bottom:0;}
+.ewUploadTable td{border-top:1px;border-left:0;}
+.ewUploadTable .progress{min-width:75px;}
+.ewLabelRow{margin-bottom:5px;}
+.ewLabelRow [id^=elh_],.ewLabelRow .ewSearchCaption{font-weight:bold;}
+.ewLabelRow>span:after{content:" ";}
+.ewInputRow{margin-bottom:20px;}
+.accordion-body.collapse{position:static;}
+.table-striped tbody>tr:nth-child(odd)>td,.table-striped tbody>tr:nth-child(odd)>th{background-color:transparent;}
+.table-striped>tbody>tr:nth-child(odd)>td,.table-striped>tbody>tr:nth-child(odd)>th{background-color:#f9f9f9;}
+.table.ewUploadTable tbody:first-child tr:first-child td{border-top:0;}
+.ewMenu .navbar .nav li.dropdown>a:not(:hover):not(:focus) .caret{border-top-color:#777777;border-bottom-color:#777777;}
+.ewMenu .navbar-inverse .nav li.dropdown>a:not(:hover):not(:focus) .caret{border-top-color:#999999;border-bottom-color:#999999;}
+input.cke_dialog_ui_input_text{min-height:24px;}
+.ewView,.ewEdit,.ewCopy{min-width:16px;}
+.ewGoogleMap img{max-width:none;}
+.ewGoogleMap label{width:auto;display:inline;}
+input,textarea,select{width:auto;}
+img{max-width:none;width:auto;height:auto;}

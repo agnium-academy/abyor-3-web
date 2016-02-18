@@ -1,0 +1,9 @@
+﻿<?xml version="1.0"?>
+<configuration date="2016/02/18" author="e.World Technology Ltd.">
+<project id="{207FBEFE-7CD7-4EAA-9B3B-698CCFB88A2B}" file="C:\Users\Administrator\Documents\PHPMaker\Projects\abyor_school.pmp" name="abyor_school" product="PHPMaker" version="10.0" datetime="2016/02/18 22:59:13" languagefolder="phplang" userlevel="">
+<table id="detail_nilai" name="detail_nilai" caption="detail nilai" userlevel="" priv="1"/>
+<table id="guru" name="guru" caption="guru" userlevel="" priv="1"/>
+<table id="mapel" name="mapel" caption="mapel" userlevel="" priv="1"/>
+<table id="nilai" name="nilai" caption="nilai" userlevel="" priv="1"/>
+<table id="siswa" name="siswa" caption="siswa" userlevel="" priv="1"/>
+</project></configuration>
