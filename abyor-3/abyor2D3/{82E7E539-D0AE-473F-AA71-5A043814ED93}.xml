@@ -1,9 +1,0 @@
-﻿<?xml version="1.0"?>
-<configuration date="2016/02/18" author="e.World Technology Ltd.">
-<project id="{82E7E539-D0AE-473F-AA71-5A043814ED93}" file="C:\Users\User\Documents\PHPMaker\Projects\abyor-3.pmp" name="abyor2D3" product="PHPMaker" version="10.0" datetime="2016/02/18 15:17:17" languagefolder="phplang" userlevel="0,&quot;Default&quot;,0">
-<table id="guru" name="guru" caption="GURU" userlevel="0,&quot;Default&quot;,0" priv="1"/>
-<table id="mapel" name="mapel" caption="MATA PELAJARAN" userlevel="0,&quot;Default&quot;,0" priv="1"/>
-<table id="nilai" name="nilai" caption="DATA NILAI" userlevel="0,&quot;Default&quot;,0" priv="1"/>
-<table id="siswa" name="siswa" caption="DATA SISWA" userlevel="0,&quot;Default&quot;,0" priv="1"/>
-<table id="d_nilai" name="d_nilai" caption="d nilai" userlevel="0,&quot;Default&quot;,0" priv="1"/>
-</project></configuration>
