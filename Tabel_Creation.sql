@@ -39,7 +39,9 @@ CREATE TABLE [dbo].[Nilai](
 	[kodeMapel] [char](4) NOT NULL,
 	[nis] [char](8) NOT NULL,
 	[nip] [char](10) NOT NULL,
-	[nilai] [int] NOT NULL
+	[nilai] [int] NOT NULL,
+	[kelas][varchar](20) NOT NULL,
+	[semester][int] NOT NULL
 )
 
 GO
