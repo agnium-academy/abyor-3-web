@@ -197,7 +197,7 @@ class cdefault {
 		if ($Security->IsLoggedIn()) {
 			$this->setFailureMessage($Language->Phrase("NoPermission") . "<br><br><a href=\"logout.php\">" . $Language->Phrase("BackToLogin") . "</a>");
 		} else {
-			$this->Page_Terminate("login.php"); // Exit and go to login page
+			$this->Page_Terminate("home.php"); // Exit and go to login page
 		}
 	}
 
