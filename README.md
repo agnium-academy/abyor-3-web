@@ -44,9 +44,15 @@ untuk lebih spesifik user yang dimaksud adalah Operator Komputer, dimana pada um
   Konten-konten yang dimaksud adalah daftar user, daftar siswa, daftar guru, daftar Mata Pelajaran, dan daftar nilai.
   Maka dari itu disediakan halaman tersendiri untuk membantu user melakukan aktifitas menambah, merubah dan menghapus data pada konten-konten tersebut.
 
+#Kebutuhan untuk aplikasi
+1. OS Windows XP/7/8/Server 2003/Server 2008/Server 2012
+2. xampp versi 1.8.1 atau diatasnya.
+3. Apache versi 2.4 atau diatasnya
+4. mysql versi 5.6.21 atau mariaDb versi 10 
+  
 # Prasyarat untuk menjalankan aplikasi
 1. Instal aplikasi XAMPP atau WAMPP
-2. Jalankan service apache dan mysql server
+2. Jalankan service apache 2.4 dan mysql server
   
 # Cara Menjalankan Aplikasi
 1. Pertama copy folder abyor3 ke dalam folder xampp => htdocs
