@@ -6,13 +6,13 @@
 * Tanggal Pembuatan : 18 Februari 2016
 * Tim: Iqbal, Dhany, Kiki, Trio
 
-# Tujuan
+## Tujuan
 
 1. Memberikan informasi daftar siswa, daftar guru, daftar mata pelajaran, dan  daftar nilai.
 2. Menyederhanakan dan mempermudah administrasi akademik sekolah
 3. Mempercepat pelayanan dan pengolahan administrasi akademik sekolah
 
-# User
+## User
 
 Pada umumnya user dari sistem informasi akademik sekolah ini adalah Guru TU,
 untuk lebih spesifik user yang dimaksud adalah Operator Komputer, dimana pada umumnya tugas dari Operator Komputer Tata Usaha sekolah diantaranya adalah :
@@ -22,7 +22,7 @@ untuk lebih spesifik user yang dimaksud adalah Operator Komputer, dimana pada um
 * Membantu pengelolaan/penyusunan data siswa
 * Membantu dan melaksanakan tugas lain yang relevan yang diberikan atasan langsung
 
-# Rancangan Web Sistem Informasi Akademik Sekolah 
+## Rancangan Web Sistem Informasi Akademik Sekolah 
 
 * Halaman Login
   Pada halaman ini user akan melakukan login untuk masuk menuju halaman utama
@@ -44,29 +44,34 @@ untuk lebih spesifik user yang dimaksud adalah Operator Komputer, dimana pada um
   Konten-konten yang dimaksud adalah daftar user, daftar siswa, daftar guru, daftar Mata Pelajaran, dan daftar nilai.
   Maka dari itu disediakan halaman tersendiri untuk membantu user melakukan aktifitas menambah, merubah dan menghapus data pada konten-konten tersebut.
 
-#Kebutuhan untuk aplikasi
+## Kebutuhan untuk aplikasi
+
 1. OS Windows XP/7/8/Server 2003/Server 2008/Server 2012
 2. xampp versi 1.8.1 atau diatasnya.
 3. Apache versi 2.4 atau diatasnya
 4. mysql versi 5.6.21 atau mariaDb versi 10 
   
-# Prasyarat untuk menjalankan aplikasi
+## Prasyarat untuk menjalankan aplikasi
+
 1. Instal aplikasi XAMPP atau WAMPP
 2. Jalankan service apache dan mysql phpmyadmin
 
-# Configurasi Database
-1. Masuk ke file ewcfg10.php
-2. Edit configurasi database 
+## Configurasi Database
 
+1. Masuk ke file ewcfg10.php
+2. Edit configurasi database sesuai kebutuhan, pada baris kode seperti berikut:
+
+```
 // Database connection info
 define("EW_CONN_HOST", 'localhost', TRUE);
 define("EW_CONN_PORT", 3306, TRUE);
 define("EW_CONN_USER", 'root', TRUE);
 define("EW_CONN_PASS", '', TRUE);
 define("EW_CONN_DB", 'abyordb', TRUE);
-
+```
   
-# Cara Menjalankan Aplikasi
+## Cara Menjalankan Aplikasi
+
 1. Clone folder abyor3
 2. Pertama copy folder abyor3 ke dalam folder xampp => htdocs
 3. Kemudian buat database abyordb lalu import database abyordb.sql ke mysql phpmyadmin
