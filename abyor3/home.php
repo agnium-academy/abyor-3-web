@@ -479,6 +479,8 @@ flogin.ValidateRequired = false;
 $login->ShowMessage();
 ?>
 
+<h1 style="color:blue"><marquee>SELAMAT DATANG DI WEBSITE ABYOR SCHOOL</marquee></h1>
+
 <h2><center> VISI DAN MISI </center></h2>
 <h3><center>SMA ABYOR INTERNATIONAL </center></h3>
 <center><img src="phpimages/gedung.jpg" alt="gedung"></center>
