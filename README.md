@@ -52,3 +52,5 @@ untuk lebih spesifik user yang dimaksud adalah Operator Komputer, dimana pada um
 1. Pertama copy folder abyor3 ke dalam folder xampp => htdocs
 2. Kemudian import database abyordb.sql ke mysql server
 3. Dan yang terkhir jalankan Aplikasi dibrowser dengan perintah https://localhost/abyor3
+4. Masukkan password dan username (pass: admin username: admin) 
+5. Sekian selamat mencoba...
