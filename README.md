@@ -53,6 +53,18 @@ untuk lebih spesifik user yang dimaksud adalah Operator Komputer, dimana pada um
 # Prasyarat untuk menjalankan aplikasi
 1. Instal aplikasi XAMPP atau WAMPP
 2. Jalankan service apache dan mysql phpmyadmin
+
+# Configurasi Database
+1. Masuk ke file ewcfg10.php
+2. Edit configurasi database 
+
+// Database connection info
+define("EW_CONN_HOST", 'localhost', TRUE);
+define("EW_CONN_PORT", 3306, TRUE);
+define("EW_CONN_USER", 'root', TRUE);
+define("EW_CONN_PASS", '', TRUE);
+define("EW_CONN_DB", 'abyordb', TRUE);
+
   
 # Cara Menjalankan Aplikasi
 1. Clone folder abyor3
