@@ -52,9 +52,12 @@ untuk lebih spesifik user yang dimaksud adalah Operator Komputer, dimana pada um
   
 # Prasyarat untuk menjalankan aplikasi
 1. Instal aplikasi XAMPP atau WAMPP
-2. Jalankan service apache 2.4 dan mysql server
+2. Jalankan service apache dan mysql phpmyadmin
   
 # Cara Menjalankan Aplikasi
-1. Pertama copy folder abyor3 ke dalam folder xampp => htdocs
-2. Kemudian import database abyordb.sql ke mysql server
-3. Dan yang terkhir jalankan Aplikasi dibrowser dengan perintah https://localhost/abyor3
+1. Clone folder abyor3
+2. Pertama copy folder abyor3 ke dalam folder xampp => htdocs
+3. Kemudian buat database abyordb lalu import database abyordb.sql ke mysql phpmyadmin
+4. Dan yang terkhir jalankan Aplikasi dibrowser dengan perintah https://localhost/abyor3
+5. Masukkan password dan username (pass: admin username: admin) 
+6. Sekian selamat mencoba...
